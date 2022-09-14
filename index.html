@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product Landing Page</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <header id="header" class="header">
+      <div class="container header__flex">
+         <div>
+            <a href="#">
+               <img src="./img/logo.png" alt="logo" id="header-img">
+            </a>
+         </div>
+         <nav id="nav-bar" class="nav">
+            <ul>
+               <li class="nav__li"> <a href="#home" class="nav-link">Home</a> </li>
+               <li class="nav__li"> <a href="#courses" class="nav-link">Courses</a> </li>
+               <li class="nav__li"> <a href="#webinar" class="nav-link">Webinar</a> </li>
+               <li class="nav__li"> <a href="#pricing" class="nav-link">Pricing</a> </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <section class="container home" id="home">
+      <div>
+         <img src="./img/student.png" alt="student" class="home__img">
+      </div>
+      <div>
+         <h1 class="home__title">Grow Your Skills To Advance Your Career Path</h1>
+         <p class="home__subtitle">We have something big for you who want to level up!</p>
+         <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <input type="email" name="email" placeholder="Enter your email adress" required id="email" class="input">
+            <input type="submit" value="Get Started" id="submit" class="btn">
+         </form>
+      </div>
+   </section>
+
+   <section class="container courses" id="courses">
+      <h2 class="section-title">What Do You Want to Learn?</h2>
+      <p class="section-descr">Choose the right class as you need. Then enjoy studying.</p>
+      <div class="courses__flex">
+         <div class="courses__item">
+            <a href="#" target="_blank">
+               <img src="./img/learn-1.png" alt="">
+            </a>
+         </div>
+         <div class="courses__item">
+            <a href="#" target="_blank">
+               <img src="./img/learn-2.png" alt="">
+            </a>
+         </div>
+         <div class="courses__item">
+            <a href="#" target="_blank">
+               <img src="./img/learn-3.png" alt="">
+            </a>
+         </div>
+      </div>
+      <a class="btn btn-courses" href="#" target="_blank">Show All Classes</a>
+   </section>
+
+   <section class="container webinar" id="webinar">
+      <h2 class="section-title">Live Online Webinar</h2>
+      <p class="section-descr">You can stream Webinar live on our apps. Stay update on our Webinar, it's Free!</p>
+      <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/DF64yY3dZy0" title="YouTube video player"
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen>
+      </iframe>
+   </section>
+
+   <section class="container pricing" id="pricing">
+      <h2 class="section-title">Course Pricing</h2>
+      <p class="section-descr">Choose pricing that suits to your need.</p>
+      <div class="pricing__flex">
+         <div class="pricing__item">
+            <p class="item__text">Free</p>
+            <h3 class="item__title">$0<span>/month</span></h3>
+            <hr>
+            <ul>
+               <li class="item__li">Free e-book for every class</li>
+               <li class="item__li">Materials update every day</li>
+               <li class="item__li">Free download material videos</li>
+               <li class="item__li">Unlock 5 material videos</li>
+            </ul>
+            <button class="btn btn__item">Get Started</button>
+         </div>
+         <div class="pricing__item">
+            <p class="item__text">Express</p>
+            <h3 class="item__title">$75<span>/month</span></h3>
+            <hr>
+            <ul>
+               <li class="item__li">Free e-book for every class</li>
+               <li class="item__li">Materials update every day</li>
+               <li class="item__li">Free download material videos</li>
+               <li class="item__li">Meeting 2 times a week</li>
+               <li class="item__li">Unlock 15 material videos</li>
+            </ul>
+            <button class="btn btn__item">Get Started</button>
+         </div>
+         <div class="pricing__item">
+            <p class="item__text">Premium</p>
+            <h3 class="item__title">$115<span>/month</span></h3>
+            <hr>
+            <ul>
+               <li class="item__li">Free e-book for every class</li>
+               <li class="item__li">Materials update every day</li>
+               <li class="item__li">Free download material videos</li>
+               <li class="item__li">Private chat with mentor</li>
+               <li class="item__li">Meeting 3 times a week</li>
+               <li class="item__li">Unlock up to 30 material videos</li>
+               <li class="item__li">Unlimited saved class</li>
+            </ul>
+            <button class="btn btn__item">Get Started</button>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="container footer__flex">
+         <div>
+            <a href="#">
+               <img src="./img/logo.png" alt="logo">
+            </a>
+         </div>
+         <p class="footer__text">
+            Copyright © 2022 Sinauw. All Rights Reserved
+         </p>
+      </div>
+   </footer>
+   
+</body>
+</html>
